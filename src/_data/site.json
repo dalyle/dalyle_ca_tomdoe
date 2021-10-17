@@ -1,17 +1,21 @@
 {
-  "baseURL": "https://awesome11ty.ttntm.me",
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "baseURL": "https://beta.dalyle.ca",
+  "author": "Greg Stevens (@gsteve3)",
+  "description": "Trying to do things right. My name is Greg Stevens, I am addicted to solving problems...",
+  "title": "Dalyle DevOps Inc. | Greg's New Thing!",
   "language": "en",
   "social": [
     {
       "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "url": "https://twitter.com/dalyle_ca"
     },
     {
       "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "url": "https://linkedin.com/dalyle/#"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dalyle/#"
     }
   ]
 }
