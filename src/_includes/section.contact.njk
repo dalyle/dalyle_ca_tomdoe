@@ -5,6 +5,7 @@
         <h2 class="font-bold tracking-widest text-gray-200 text-4xl mb-4">{{ item.data.title }}</h2>
         <div class="text-gray-400 text-xl">
           {# {{ item.templateContent | safe }} #}
+          {# div class and dl from https://tailwindui.com/components/application-ui/data-display/description-lists #}
           <address>
             <dl class="list-disc">
               <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -12,7 +13,7 @@
                   Email
                   <p class="italic">(Good)</p>
                 </dt>
-                <dd>
+                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
                   <a href="mailto:hello@dalyle.ca?subject=Hello from Website">hello@dalyle.ca</a>
                 </dd>
               </div>
@@ -21,17 +22,17 @@
                   Reception
                   <p class="italic">(Better)</p>
                 </dt>
-                <dd>
-                  <a href="tel:+1 (403) 295-2848">(403)&nbsp;295-2848</a>
+                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
+                  <a href="tel:+1-403-295-2848">(403)&nbsp;295-2848</a>
                 </dd>
               </div>
               <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-500">
                   Greg's Cell
-                  <p class="italic">(Best, for now)</p>
+                  <p class="italic">(Best <em>to add to Contacts for text/caller ID</em>)</p>
                 </dt>
-                <dd>
-                    <a href="tel:+1 (403) 498-6809">(403)&nbsp;498-6809</a>
+                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
+                    <a href="tel:+1-403-498-6809">(403)&nbsp;498-6809</a>
                 </dd>
               </div>
             </dl>
