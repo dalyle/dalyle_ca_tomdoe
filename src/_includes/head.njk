@@ -26,3 +26,14 @@
   <!-- include Normalize for regular text pages -->
   <link rel="stylesheet"  href="/css/normalize.min.css">
 {% endif %}
+
+{%- if site.googleAnalyticsID -%}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.googleAnalyticsID }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.googleAnalyticsID }}');
+  </script>
+{% endif %}
