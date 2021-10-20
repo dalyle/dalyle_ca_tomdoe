@@ -1,3 +1,35 @@
-# Redirect default Netlify subdomain to primary domain
-https://awesome11ty.netlify.app/* https://awesome11ty.ttntm.me/:splat 301!
-https://main--awesome11ty.netlify.app/* https://awesome11ty.ttntm.me/:splat 301!
+# https://docs.netlify.com/routing/redirects/
+#
+# > # Redirects from what the browser requests to what we serve
+# > /home              /
+# > /blog/my-post.php  /blog/my-post
+# > /news              /blog
+# > /cuties            https://www.petsofnetlify.com
+# >
+#
+
+# Greg's Email Signature
+/vcard          /vcards/Greg-Stevens-Dalyle.vcf
+/vcard/greg     /vcards/Greg-Stevens-Dalyle.vcf
+/map            https://www.google.com/maps/place/Dalyle+DevOps+Inc./@50.7332955,-113.9601793,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd7b6451e49657c76!8m2!3d50.7332955!4d-113.9579906
+
+
+# https://www.google.com/maps/place/Dalyle+DevOps+Inc./@50.7332955,-113.9601793,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xd7b6451e49657c76!8m2!3d50.7332955!4d-113.9579906
+# with tracking
+
+
+#
+# wow, Greg, like 5 hours to setup a redirect? lol.
+# plus about 5 logo changes?
+# and a visit from jack
+#
+
+#
+# sidenote: dalyledevops@gmail.com is accct
+# used to create Google Place on 2021-10-19.
+#
+
+
+# others (not used yet)
+/hello      /
+/contact    /
