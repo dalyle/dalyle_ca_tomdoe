@@ -6,14 +6,19 @@
 
 /* From https://tailwindcss.com/docs/adding-base-styles */
 @layer base {
-    h1 {
-      @apply text-2xl;
-      @apply text-color1;
-      @apply text-2xl;
-      @apply mb-6;
-    }
-    h2 {
-      @apply text-xl;
-      /* @apply text-color1; */
-    }
+  h1 {
+    @apply text-2xl;
+    @apply text-color1;
+    @apply text-2xl;
+    @apply mb-6;
   }
+  h2 {
+    @apply text-xl;
+    /* @apply text-color1; */
+  }
+
+  /* DALYLE */
+  a {
+    @apply text-color1;
+  }
+}

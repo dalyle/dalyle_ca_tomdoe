@@ -7,3 +7,9 @@
 div.__dalyle-test-string {
     display: none;
 }
+
+@layer base {
+    a {
+        @apply text-color1;
+    }
+}

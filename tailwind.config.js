@@ -43,6 +43,7 @@ module.exports = {
         light: "#24B0FC",
         DEFAULT: "#24B0FC",
         dark: "#105175",
+        800: "#105175",
       }
     },
     spacing: {

@@ -6,16 +6,21 @@
   "language": "en",
   "social": [
     {
-      "title": "Twitter",
+      "title": "Twitter @dalyle_ca",
       "url": "https://twitter.com/dalyle_ca"
     },
     {
-      "title": "LinkedIn",
+      "title": "LinkedIn @dalyle",
       "url": "https://linkedin.com/company/dalyle"
     },
     {
-      "title": "GitHub",
+      "title": "GitHub @dalyle",
       "url": "https://github.com/dalyle"
+    }
+    ,
+    {
+      "title": "Google Places",
+      "url": "/map"
     }
   ],
   "googleAnalyticsID": "g"
