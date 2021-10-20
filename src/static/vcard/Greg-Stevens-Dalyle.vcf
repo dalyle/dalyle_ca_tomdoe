@@ -1,9 +1,9 @@
 BEGIN:VCARD
 VERSION:2.1
-N:Stevens;Greg;;;2021
-FN:Greg Stevens, 2021
-ORG:dalyle.ca
-TITLE:DevOps, FS Web Dev
+N:Stevens;Greg;;;Dalyle
+FN:Greg Stevens, Dalyle
+ORG:Dalyle DevOps Inc.
+TITLE:CEO, Cloud Engineer, FS Web Dev
 TEL;WORK;VOICE:(403) 295-2848
 TEL;CELL;VOICE:(403) 498-6809
 TEL;PREF:4032952848
