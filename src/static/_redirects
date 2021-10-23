@@ -30,6 +30,23 @@
 #
 
 
+### ###
+# Internal Links Used by Site
+# Can add tracking codes or update easier this way.
+# Just renamed twitter `dalyle_ca` which hurts my right hand
+# to type in the garage on the old Microsoft keyboard.
+# @DalyleDevOps it is! Where @dalyle isn't of course.
+/linkedin   https://www.linkedin.com/company/Dalyle
+/twitter    https://twitter.com/DalyleDevOps
+/github     https://github.com/dalyle
+#
+# end internal
+### ###
+
+
+
+
+###
 # others (not used yet)
 /hello      /
-/contact    /
+/contact    /twitter

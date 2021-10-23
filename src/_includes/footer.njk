@@ -1,58 +1,67 @@
-<footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16">
-  <div class="text-center pr-0 sm:pr-8 py-4">
-    <ul class="list-none">
-      {% for item in site.social %}
+  <footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16">
+    <div class="text-center pr-0 sm:pr-8 py-4">
+      <ul class="list-none">
+        {% for item in site.social %}
+          <li>
+            <a class="text-gray-800 hover:text-purple-600 no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="h-px sm:h-auto w-1/2 sm:w-px bg-purple-600 mx-auto sm:mx-0">
+    </div>
+
+    <div class="text-center pl-0 sm:pl-8 py-4">
+      <ul class="list-none">
         <li>
-          <a class="text-gray-800 hover:text-purple-600 no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+          <a class="text-gray-800 hover:text-purple-600 no-underline" href="/privacy">Privacy</a>
         </li>
-      {% endfor %}
-    </ul>
+        <li>
+          <a class="text-gray-800 hover:text-purple-600 no-underline" href="/imprint">Imprint</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="w-full text-center mb-8">
+    <div class="text-center text-gray-600 text-sm font-light w-full">
+      &copy;
+      {{ helpers.currentYear() }}
+      <b>{{ site.title }}</b>
+      <br />
+      An Experiment by
+      <a href="https://greg.stevens.pro/?utm_source=dalyle_ca&utm_medium=footer" target="_blank">
+        Greg Stevens
+      </a>
+      .
+    </div>
+    <div class="block text-center text-gray-600 text-sm font-light">
+      Coming to you with ♥ from Okotoks, Alberta (AB), Canada.
+      <br />
+      Servicing clients nationwide, sometimes even world-wide.
+    </div>
   </div>
-{#
-  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-purple-600 mx-auto sm:mx-0"></div>
-  <div class="text-center px-8 py-4">
-    <ul class="list-none">
-      <li>
-        <a class="text-gray-800 hover:text-purple-600 no-underline" href="{% if isFront %}#about{% else %}{{ site.baseURL }}/#about{% endif %}">About</a>
-      </li>
-      <li>
-        <a class="text-gray-800 hover:text-purple-600 no-underline" href="{% if isFront %}#features{% else %}{{ site.baseURL }}/#features{% endif %}">Features</a>
-      </li>
-    </ul>
-  </div> #}
-  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-purple-600 mx-auto sm:mx-0"></div>
-  <div class="text-center pl-0 sm:pl-8 py-4">
-    <ul class="list-none">
-      <li>
-        <a class="text-gray-800 hover:text-purple-600 no-underline" href="/privacy">Privacy</a>
-      </li>
-      <li>
-        <a class="text-gray-800 hover:text-purple-600 no-underline" href="/imprint">Imprint</a>
-      </li>
-    </ul>
-  </div>
-</footer>
-<div class="w-full">
-  <span class="block text-center text-gray-800 text-sm font-light">
-    &copy; 2021 Dalyle DevOps Inc.
-    <br />
-    An Experiment by
-    <a href="https://greg.stevens.pro/?utm_source=dalyle_ca&utm_medium=footer" target="_blank">
-      Greg Stevens (www.stevens.pro)
-    </a>
-  </span>
-  <br>
-</div>
+
+
+<!-- FLOATING (static? absolute? what's the term?) elements --->
 <div class="">
   <a id="btt"
     class="hidden fixed bottom-0 right-0 mb-4 mr-4 text-gray-200 border border-color1-600 hover:bg-gray-200 hover:text-purple-600 hover:border-browngray no-underline px-6 py-1 bg-color2 shadow-md"
     href="#top" title="Back to Top">^ TOP ^</a>
 </div>
 <div class="fixed bottom-0 left-0 m-6">
-  <a href="https://github.com/dalyle/" target="_blank" rel="noopener" title="Find us @ GitHub"
+  <a href="https://www.canada.ca/" target="_blank" rel="noopener" title="Find us @ GitHub"
     class="block rounded-full bg-black text-color1-600 hover:bg-white hover:text-black shadow-md p-4">
 
-    <img src="/img/logo/dalyle-colour-logo-no-bg.svg" width="128" height="128" class="block" alt="GitHub icon">
+    {# <img src="/img/logo/dalyle-colour-logo-no-bg.svg" width="128" height="128" class="block" alt="GitHub icon"> #}
+    <img
+      src="/img/canada/proudly-canadian.png"
+      width="128"
+      height="128"
+      class="block"
+      alt="GitHub icon"
+    >
   </a>
 </div>
 <!-- "Follow" Tooltip template -->
