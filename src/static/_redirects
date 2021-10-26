@@ -49,9 +49,9 @@
 ### ###
 /desk   https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 
-### PKWT
+### PKI / PWT (PKI Web Team)
 /pkwebteam  https://dalyle.atlassian.net/servicedesk/customer/portal/6
-/pkw        https://dalyle.atlassian.net/servicedesk/customer/portal/6
+/pwt        https://dalyle.atlassian.net/servicedesk/customer/portal/6
 ###
 
 
