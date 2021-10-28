@@ -48,6 +48,8 @@
 # CUSTOMER SERVICE LINKS
 ### ###
 /desk   https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/svc   https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/portals  https://dalyle.atlassian.net/servicedesk/customer/portals
 
 ### PKI / PWT (PKI Web Team)
 /pkwebteam  https://dalyle.atlassian.net/servicedesk/customer/portal/6
