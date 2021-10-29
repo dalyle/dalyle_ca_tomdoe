@@ -30,7 +30,7 @@
 #
 
 
-### ###
+###=####
 # Internal Links Used by Site
 # Can add tracking codes or update easier this way.
 # Just renamed twitter `dalyle_ca` which hurts my right hand
@@ -39,24 +39,37 @@
 /linkedin   https://www.linkedin.com/company/Dalyle
 /twitter    https://twitter.com/DalyleDevOps
 /github     https://github.com/dalyle
-#
-# end internal
-### ###
+###=####
 
 
-### ###
+###=###
 # CUSTOMER SERVICE LINKS
-### ###
-/desk   https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
-/svc   https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+###=###
+/desk     https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/svc      https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+# Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
 /portals  https://dalyle.atlassian.net/servicedesk/customer/portals
 
-### PKI / PWT (PKI Web Team)
-/pkwebteam  https://dalyle.atlassian.net/servicedesk/customer/portal/6
-/pwt        https://dalyle.atlassian.net/servicedesk/customer/portal/6
-###
+###=###
+# PKI Related
+###=###
+/pkwebteam  /pkwt
+/pwt        /pkwt
+/pkwt       https://dalyle.atlassian.net/servicedesk/customer/portal/6
+### ### ###
 
 
+
+
+# "Customer invited"
+# ...email sent by Jira Service Management.
+# 2021-10-28
+
+/from/jira-customer-invited     /?utm_id=2021-10-28&utm_source=jira&utm_medium=email&utm_campign=jira-customer-invited
+
+#
+#
+#
 
 ###
 # others (not used yet)
