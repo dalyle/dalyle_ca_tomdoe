@@ -53,7 +53,8 @@
 /portals        https://dalyle.atlassian.net/servicedesk/customer/portals
 
 /client         /csd?utm_medium=redirect&utm_source=/client
-/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
+/desk           /csd?utm_medium=redirect&utm_campaign=/client&utm_source=dalyle_dot_ca
+/csd            https://dalyle.atlassian.net/servicedesk/customer/portals/
 /portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
 
 
