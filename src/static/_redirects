@@ -45,10 +45,26 @@
 ###=###
 # CUSTOMER SERVICE LINKS
 ###=###
-/desk     https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
-/svc      https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+
+# Dalyle Staff
+/staff/csd      https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/svc            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 # Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
-/portals  https://dalyle.atlassian.net/servicedesk/customer/portals
+/portals        https://dalyle.atlassian.net/servicedesk/customer/portals
+
+/client         /csd?utm_medium=redirect&utm_source=/client
+/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
+/portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
+
+
+### ### ###  ### ### ###  ### ### ###  ### ### ### ###
+### PROJECTS (Jira Software Projects typically)  ###
+
+# Ronmor Board - Friday, November 5, 2021 @ 03:11:26 PM
+/p/ron  https://dalyle.atlassian.net/browse/RON
+
+### ### ###
+
 
 ###=###
 # PKI Related
