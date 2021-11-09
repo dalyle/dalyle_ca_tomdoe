@@ -57,6 +57,7 @@
 # ????? /            https://dalyle.atlassian.net/servicedesk/customer/portals/
 # /portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
 
+/status         https://dalyle.statuspage.io/?utm_medium=redirect&utm_campaign=/status&utm_source=dalyle_ca
 ### ### ###  ### ### ###  ### ### ###  ### ### ### ###
 ### PROJECTS (Jira Software Projects typically)  ###
 
