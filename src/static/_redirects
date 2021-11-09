@@ -47,16 +47,15 @@
 ###=###
 
 # Dalyle Staff
-/staff/csd      https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
-/svc            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/csd            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+; /svc            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 # Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
 /portals        https://dalyle.atlassian.net/servicedesk/customer/portals
 
-/client         /csd?utm_medium=redirect&utm_source=/client
 /desk           /csd?utm_medium=redirect&utm_campaign=/client&utm_source=dalyle_dot_ca
-/csd            https://dalyle.atlassian.net/servicedesk/customer/portals/
-/portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
-
+/client         /csd?utm_medium=redirect&utm_source=/client
+# ????? /            https://dalyle.atlassian.net/servicedesk/customer/portals/
+# /portals/csd    https://dalyle.atlassian.net/servicedesk/customer/portals/
 
 ### ### ###  ### ### ###  ### ### ###  ### ### ### ###
 ### PROJECTS (Jira Software Projects typically)  ###
