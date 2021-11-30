@@ -48,6 +48,7 @@
 
 # Dalyle Staff
 /csd            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/sp             https://dalyle.sharepoint.com/sites/DalyleStaff
 ; /svc            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 # Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
 /portals        https://dalyle.atlassian.net/servicedesk/customer/portals
