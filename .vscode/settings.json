@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "analytics",
         "redirects",
-        "content"
+        "content",
+        "design"
     ]
 }
