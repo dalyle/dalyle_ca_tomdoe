@@ -8,6 +8,13 @@
 # >
 #
 
+
+
+# DOMAIN ALIASES
+# https://answers.netlify.com/t/301-redirect-from-domain-alias-to-primary-domain-subdomain/16803/6
+https://dalyle.ca/*        https://www.dalyle.io/:splat 301!
+https://www.dalyle.ca/*    https://www.dalyle.io/:splat 301!
+
 # Greg's Email Signature
 /vcard          /vcard/Greg-Stevens-Dalyle.vcf
 /vcard/greg     /vcard/Greg-Stevens-Dalyle.vcf
@@ -48,6 +55,7 @@
 
 # Dalyle Staff
 /csd            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
+/dhr            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 /sp             https://dalyle.sharepoint.com/sites/DalyleStaff
 ; /svc            https://dalyle.atlassian.net/jira/servicedesk/projects/CSD/queues/custom/49
 # Jira says /portals/... keep it.../portal   https://dalyle.atlassian.net/servicedesk/customer/portals
