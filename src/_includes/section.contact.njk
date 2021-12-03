@@ -6,13 +6,21 @@
         <div class="text-gray-400 text-xl">
           {# {{ item.templateContent | safe }} #}
           {# div class and dl from https://tailwindui.com/components/application-ui/data-display/description-lists #}
+
           <address>
             <a
               href="/vcard/greg"
               class="block bg-color1-300 hover:bg-color2 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
             >
+                <div class="text-sm">
+                  Greg Stevens
+                  <br />
+                  Download vCard (.vcf)
+                  <br />
+                  <br />
+                  #Pssst #ProTip #ShortURL <code>===> www.dalyle.io/vcard/greg</code>
+                </div>
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                <span class="text-sm">Download vCard (.vcf)(www.dalyle.ca/vcard/greg)</span>
             </a>
             <dl class="list-disc">
               <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -20,8 +28,11 @@
                   Email
                   <p class="italic">(Good)</p>
                 </dt>
-                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
-                  <a href="mailto:hello@dalyle.ca?subject=Hello from Website">hello@dalyle.ca</a>
+                <dd class="mt-1 text-md sm:mt-0 sm:col-span-2">
+                  <a
+                    class="text-color2"
+                    href="mailto:hello@dalyle.ca?subject=Hello from Website"
+                  >hello@dalyle.ca</a>
                 </dd>
               </div>
               <div class="bg-gray-200 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -29,24 +40,86 @@
                   Reception
                   <p class="italic">(Better)</p>
                 </dt>
-                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
-                  <a href="tel:+1-403-295-2848">(403)&nbsp;295-2848</a>
+                <dd class="mt-1 text-md sm:mt-0 sm:col-span-2">
+                  <a
+                    class="text-color2"
+                    href="tel:+1-403-295-2848"
+                  >(403)&nbsp;295-2848</a>
                 </dd>
               </div>
               <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-500">
                   Greg's Cell
                 </dt>
-                <dd class="mt-1 text-md text-gray-900 sm:mt-0 sm:col-span-2">
-                    <a href="tel:+1-403-498-6809">(403)&nbsp;498-6809</a>
+                <dd class="mt-1 text-md sm:mt-0 sm:col-span-2">
+                    <a
+                      class="text-color2"
+                      href="tel:+1-403-498-6809"
+                    >(403)&nbsp;498-6809</a>
                 </dd>
                 <p class="italic text-sm text-color2-light sm:col-span-4">(Best <em>to add to your Contacts for text/caller ID</em>)</p>
 
+              </div>
+              <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt class="text-sm font-medium text-gray-500">
+                  Gabrielle C.
+                </dt>
+                <dd class="mt-1 text-md sm:mt-0 sm:col-span-2">
+
+                    <p class="italic text-sm text-color2-light sm:col-span-4">
+                      Coming Soon!
+                    </p>
+
+                </dd>
               </div>
             </dl>
           </address>
 
         </div>
+
+
+
+        {#
+        <div class="text-gray-400 text-xl">
+
+          <address>
+              <a
+                href="#"
+                onclick="alert('Announcing Gabrielle\'s Details Soon!');return false;"
+                class="block bg-color1-300 hover:bg-color2 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+              >
+                  <div class="text-sm">
+                    Greg Stevens
+                    <br />
+                    Download vCard (.vcf)
+                    <br />
+                    <br />
+                    #pssst #protip #ShortURL ||| <code>dalyle.io/vcard/greg</code>
+                  </div>
+                  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+              </a>
+
+
+              <dl class="list-disc">
+                <div class="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                  <dt class="text-sm font-medium text-gray-500">
+                    Gabrielle C.
+                  </dt>
+                  <dd class="mt-1 text-md sm:mt-0 sm:col-span-2">
+
+                      <p class="italic text-sm text-color2-light sm:col-span-4">
+                        Coming Soon!
+                      </p>
+
+                  </dd>
+                </div>
+              </dl>
+            </address>
+
+        </div>
+        #}
+
+
 
         {#
         <form class="w-full max-w-lg my-20 mx-auto" action="#" method="post" id="registration-form" target="_blank" validate>
@@ -64,7 +137,11 @@
           </label>
         </form>
         #}
+
+
       </div>
     </div>
+
   {% endif %}
+
 {% endfor %}
