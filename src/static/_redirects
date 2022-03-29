@@ -101,3 +101,7 @@ https://www.dalyle.ca/*    https://www.dalyle.io/:splat 301!
 # others (not used yet)
 /hello      /
 /contact    /twitter
+
+
+# 2022-03-29 - Amazon Cloud Architect Application
+/amazon/video   https://www.youtube.com/watch?v=glI3_-6VXrc&source=dalyle-www
