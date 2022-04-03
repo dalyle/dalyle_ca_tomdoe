@@ -6,17 +6,17 @@
   "language": "en",
   "social": [
     {
-      "title": "Twitter.com/  DalyleDevOpsInc",
+      "title": "Twitter @DalyleInc",
       "url": "https://twitter.com/DalyleDevOpsInc",
       "related_redirects": "/twitter"
-    },
+    }
     {
-      "title": "LinkedIn.com/company/<kbd>dalyle</kbd>",
+      "title": "LinkedIn @Dalyle",
       "url": "https://www.linkedin.com/company/dalyle",
       "related_redirects": "/linkedin"
     },
     {
-      "title": "GitHub.com/  dalyle",
+      "title": "GitHub @Dalyle",
       "url": "https://github.com/dalyle",
       "related_redirects": "/github"
     }
