@@ -9,11 +9,12 @@
 #
 
 
-
-# DOMAIN ALIASES
+###
+# PRIMARY DOMAIN REDIRECTS
 # https://answers.netlify.com/t/301-redirect-from-domain-alias-to-primary-domain-subdomain/16803/6
-https://dalyle.ca/*        https://www.dalyle.io/:splat 301!
-https://www.dalyle.ca/*    https://www.dalyle.io/:splat 301!
+###
+https://dalyle.io/*        https://www.dalyle.ca/:splat 301!
+https://www.dalyle.io/*    https://www.dalyle.ca/:splat 301!
 
 # Greg's Email Signature
 /vcard          /vcard/Greg-Stevens-Dalyle.vcf
