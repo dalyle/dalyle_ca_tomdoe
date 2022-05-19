@@ -12,8 +12,8 @@
 ###
 # SUB-DOMAIN REDIRECTS
 ###
-https://status.dalyle.ca/  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.ca&utm_name=test-name&utm_source=test-source
-https://status.dalyle.io/  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.io&utm_name=test-name&utm_source=test-source
+https://status.dalyle.ca/*  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.ca&utm_name=test-name&utm_source=test-source    301!
+https://status.dalyle.io/*  https://dalyle.statuspage.io/?utm_campaign=redirects&utm_term=status.dalyle.io&utm_name=test-name&utm_source=test-source    301!
 
 
 ###
